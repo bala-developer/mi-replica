@@ -1,0 +1,103 @@
+.main{
+    height:auto;
+
+}
+.header{
+    height:50px;
+    width:100%;
+}
+.logo{
+    height:40px;
+    width:40px;
+    bottom: 57px;
+    position: relative;
+    right: 100px;
+    }
+.whislist{
+    height:40px;
+    width:40px;
+    bottom: 57px;
+    right:200px;
+    position: relative;
+    }
+.carousal{
+    height:400px;
+    width:100%;
+}
+.slide{
+    padding-left: 300px;
+    height: 400px;
+}
+h1{
+    color: black;
+}
+.smallicon{
+    margin-top:30px;
+    height:100px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+    background-color:white;
+}
+.iconimg{
+    margin-right: 50px;
+}
+.iconimg1{
+    margin-left:150px;
+    margin-right:50px;
+
+}
+.iconname{
+    margin-top:opx;
+    height:20 px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.iconname11{
+    margin-left:180px;
+    margin-right: 100px;
+}
+.iconname1{
+    margin-right: 90px;
+    
+}
+.cards{
+    border-radius: 20px;
+    height:300px;
+    margin:50px;
+}
+.play{
+    margin: 80px;
+    height: 300px;
+}
+.hurryup{
+    
+}
+.special{
+    height:400px;
+    float:left;
+    width:30%;
+    position: relative;
+    background-color: orangered;
+}
+.special1{
+    height:400px;
+    float:right;
+    left:0px;
+    width:70%;
+    position: relative;
+    background-color: orangered;
+
+}
+.description1{
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.price{
+    padding-left: 60px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:white;
+}

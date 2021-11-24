@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylemi.css'>
+</head>
+<body class= "main">
+    <div class="header">
+        <h1>Mi India</h1>
+        <img style="float:right" class="whislist" src="shopping-cart.png">
+        <img style="float:right" class="logo" alt="slogo" src="magnifying-glass.png">
+    </div>
+    <div class="carousal">
+        <img class="slide" name="slide" width="50%"height="350px">
+    </div>
+    <div class="smallicon">
+      <a href="tv.html"> <img class="iconimg1" src="Tv.png" alt="tv"></a> 
+       <a href="laptop.html"> <img class="iconimg" src="laptop.png" alt="laptop">
+       <a href="smartphone.html"> <img class="iconimg" src="smartphone.png" alt="phone">  
+       <a href="audio.html"><img class="iconimg" src="audio.png" alt="audio">  
+       <a href="speaker.html"><img class="iconimg" src="speaker.png" alt="smarthome">  
+       <a href="watch.html"> <img class="iconimg" src="watch.png" alt="lifestyle">  
+    </div>
+    <div class="iconname">
+        <span class="iconname11">Tv</span>
+        <span class="iconname1">laptop</span>
+        <span class="iconname1">phone</span>
+         <span class="iconname1">audio</span>
+         <span class="iconname1">speaker</span>
+         <span class="iconname1">watch</span>
+    </div> 
+    <div class="cards">
+        <img width="100%" height="300px" src="card.png " alt="bankoffer">
+    </div>
+    <div class="play">
+        <a href="games.html">
+        <img width="100%" height= " 300px "src="play.png " alt="play and win">
+    </div>
+    <div class="hurryup">
+        <h1>Today special</h1>
+    </div>
+    <div class="special">
+        <img  height="300px" width="300px" src="mi10i.png" alt="mobile">
+        <p class="price">price <strike>13,999</strike>13,000/-</p>
+    </div>
+    <div class="special1">
+            <p class="description1">MI 10i is one of the outstanding all rounder mobile presenting
+                the mega mega Pixel Camera, again.
+            </p>
+            <p class="description1">5000mah Battery provide a long lasting charge for two days,
+                of full use.
+            </p>
+            <p class="description1">qualcom snapdragon processor gives very fast processing and 
+                nice gaming experience</p>
+            <p class="description1">Hurry up sale a Big !0 % offer on Today,only few stocks left.</p>
+    </div>
+
+</body>
+<script>
+    var i=0;
+    var images=[];
+    var time=2000;
+    //img lists
+    images[0]= "carousal1.jpg";
+    images[1]= "carousal2.jpg";
+    images[2]= "carousal3.jpg";
+    images[3]= "carousal4.jpg";
+    images[4]= "carousal5.jpg";
+    images[5]= "carousal6.jpg";
+    //carousal
+    function slideshow(){
+        document.slide.src= images[i];
+        if(i< images.length - 1){
+            i++;
+        }else{
+            i=0;
+        }
+        setTimeout("slideshow()",time);
+    }
+    window.onload=slideshow;
+
+</script>
+</html>
